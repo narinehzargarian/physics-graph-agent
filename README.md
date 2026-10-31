@@ -34,7 +34,7 @@ The workflow:
 
 The conversation is stored per session with a LangGraph checkpointer, so follow-up questions keep their context.
 
-The data is 40 physics concepts and about 40 relationships that I wrote by hand, including some deliberately messy rows that the Pandas pipeline has to clean: duplicate spellings, missing fields, dangling links, and self-loops.
+The data is 39 physics concepts and 41 relationships that I wrote by hand, including some deliberately messy rows that the Pandas pipeline has to clean: duplicate spellings, missing fields, dangling links, and self-loops.
 
 ## Results
 
