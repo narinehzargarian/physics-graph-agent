@@ -1,0 +1,12 @@
+elasticsearch>=8.15,<9
+fastapi>=0.115
+langchain-core>=0.3
+langchain-ollama>=0.2
+langgraph>=0.2
+neo4j>=5.25,<6
+numpy>=1.26
+pandas>=2.2
+pydantic>=2.9
+pytest>=8
+redis>=5
+uvicorn>=0.30

@@ -1,0 +1,44 @@
+source,relation,target
+Conservation of energy,DERIVED_FROM,Noether's theorem
+Conservation of momentum,DERIVED_FROM,Noether's theorem
+Noether's theorem,USES,Lagrangian mechanics
+Lagrangian mechanics,GENERALIZES,Newton's second law
+Hamiltonian mechanics,DERIVED_FROM,Lagrangian mechanics
+Schrodinger equation,DERIVED_FROM,Hamiltonian mechanics
+Schrodinger equation,DESCRIBES,Wave function
+Uncertainty principle,DERIVED_FROM,Wave function
+Quantum tunneling,DERIVED_FROM,Schrodinger equation
+Harmonic oscillator,DERIVED_FROM,Newton's second law
+Electromagnetic wave,DERIVED_FROM,Maxwell's equations
+Faraday's law,PART_OF,Maxwell's equations
+Lorentz force,USES,Maxwell's equations
+Speed of light,DERIVED_FROM,Maxwell's equations
+Special relativity,DERIVED_FROM,Speed of light
+Time dilation,DERIVED_FROM,Special relativity
+Mass-energy equivalence,DERIVED_FROM,Special relativity
+General relativity,GENERALIZES,Special relativity
+Black hole,PREDICTED_BY,General relativity
+Gravitational wave,PREDICTED_BY,General relativity
+Photon,QUANTUM_OF,Electromagnetic wave
+Photoelectric effect,EXPLAINED_BY,Photon
+Quantum entanglement,DERIVED_FROM,Wave function
+Pauli exclusion principle,USES,Spin
+Neutron star,SUPPORTED_BY,Pauli exclusion principle
+Black hole,FORMS_FROM,Neutron star
+Second law of thermodynamics,USES,Entropy
+Boltzmann distribution,USES,Entropy
+Maxwell-Boltzmann distribution,DERIVED_FROM,Boltzmann distribution
+Plasma,GOVERNED_BY,Maxwell's equations
+Plasma,GOVERNED_BY,Lorentz force
+Debye length,PROPERTY_OF,Plasma
+Plasma frequency,PROPERTY_OF,Plasma
+Debye length,USES,Boltzmann distribution
+Particle-in-Cell method,SIMULATES,Plasma
+Particle-in-Cell method,USES,Lorentz force
+Magnetic reconnection,OCCURS_IN,Plasma
+Nuclear fusion,USES,Quantum tunneling
+Nuclear fusion,USES,Mass-energy equivalence
+Tokamak,CONFINES,Plasma
+Tokamak,USED_FOR,Nuclear fusion
+newton's second law ,PART_OF,Missing concept
+Spin,PART_OF,Spin
