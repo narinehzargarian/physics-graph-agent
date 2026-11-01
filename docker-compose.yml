@@ -17,9 +17,9 @@ services:
     environment:
       discovery.type: single-node
       xpack.security.enabled: "false"
-      # UseSVE=0 stops a JVM crash on recent Apple Silicon, and is harmless elsewhere.
-      ES_JAVA_OPTS: "-Xms512m -Xmx512m -XX:UseSVE=0"
-      CLI_JAVA_OPTS: "-XX:UseSVE=0"
+      # UseSVE=0 stops a JVM crash on recent Apple Silicon. The other flag lets JVMs on other chips ignore it.
+      ES_JAVA_OPTS: "-Xms512m -Xmx512m -XX:+IgnoreUnrecognizedVMOptions -XX:UseSVE=0"
+      CLI_JAVA_OPTS: "-XX:+IgnoreUnrecognizedVMOptions -XX:UseSVE=0"
     ports:
       - "9200:9200"
     healthcheck:
